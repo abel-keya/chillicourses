@@ -1,0 +1,41 @@
+[
+    {
+        "name": "semantic/ui",
+        "version": "2.2.13",
+        "version_normalized": "2.2.13.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Semantic-Org/Semantic-UI.git",
+            "reference": "5550bca6afe30aa5ba4b1a5a853c91e358ab4a5d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Semantic-Org/Semantic-UI/zipball/5550bca6afe30aa5ba4b1a5a853c91e358ab4a5d",
+            "reference": "5550bca6afe30aa5ba4b1a5a853c91e358ab4a5d",
+            "shasum": ""
+        },
+        "time": "2017-08-07T16:13:46+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jack Lukic",
+                "email": "jacklukic@gmail.com",
+                "homepage": "http://www.jacklukic.com",
+                "role": "Creator"
+            }
+        ],
+        "description": "Semantic empowers designers and developers by creating a shared vocabulary for UI.",
+        "homepage": "http://www.semantic-ui.com",
+        "keywords": [
+            "css",
+            "framework",
+            "semantic",
+            "ui"
+        ]
+    }
+]

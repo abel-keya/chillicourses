@@ -1,0 +1,43 @@
+<h4 class="ui horizontal divider header">
+  <i class="tag icon blue"></i>
+  Edit Assignment
+</h4>
+<form class="ui form">
+    <div class="field">
+        <label>Question</label>
+        <input name="quiz_question" placeholder="Quiz Question" type="text" required>
+    </div>
+    <div class="ui hidden divider"></div>
+    <div class="field">
+        <label>Select Deadline</label>
+        <input name="due_date" type='text' class="datepicker-here" data-timepicker="true" data-language='en' data-time-format='hh:ii aa' placeholder="Select a Date" readonly required>
+    </div>
+    <div class="ui hidden divider"></div>
+    <div class="ui form">
+        <div class="inline fields">
+            <label>Type of Submission?</label>
+            <div class="field">
+                <div class="ui radio checkbox">
+                    <input name="answer_type" tabindex="0" class="hidden" type="radio">
+                    <label>Document Upload</label>
+                </div>
+            </div>
+            <div class="field">
+                <div class="ui radio checkbox">
+                    <input name="answer_type" tabindex="0" class="hidden" type="radio">
+                    <label>Short / Long Text Answer</label>
+                </div>
+            </div>
+            <div class="field">
+                <div class="ui radio checkbox">
+                    <input name="answer_type" tabindex="0" class="hidden" type="radio">
+                    <label>Either</label>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+<div class="ui hidden divider"></div>
+<div class="ui buttons">
+    <a class="ui primary button">Update Assignment</a>
+</div>
